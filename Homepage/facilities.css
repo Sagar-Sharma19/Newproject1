@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+ }
+ #Banner{
+     height:100px;
+     background-color: white;
+ }
+ #Banner img{
+     height: 100px;
+     width: 100%;
+ }
+ ul{
+     margin: 0px;
+     padding: 0px;
+ }
+ #my_menu{
+     position:absolute;
+     width: 100%;
+     height: 50px;
+     background-color:rgb(80, 43, 226);
+ }
+ .menu li{
+    list-style: none;
+    width:160px;
+    height:50px;
+    background-color: rgb(80, 43, 226);
+    margin-left: 40px;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+ 
+ }
+ .menu li a:hover{
+     color: aqua;
+ }
+ .menu li a{
+     color:white;
+     display:block;
+     text-decoration: none;
+ }
+ .logo{
+     width: 28px;;
+ }
+ #line{
+     height: 2px;
+     width: 960px;
+     background-color: red;
+     margin-top: 10px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ .menu li p{
+     margin:0px;
+ }
+ #Homepage{
+     width:100%;
+ }
+ #Homepage img{
+     margin-top: 10px;
+     width:100%;
+ }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .facility {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .facility h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .facility p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: medium;
+  }
+  
+  .facility img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  #footer0{
+    background-color: darkblue;
+    height: 200px;
+    width: 1920px;
+    display: flex;
+}
+.footer1{
+    height: 150px;
+    width: 650px;
+    float: left;
+}
+.footer1 h2{
+    color: white;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer1 ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 80px;
+}
+.footer1 ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    margin-top:3px;
+}
+.footer1 ul li a:hover{
+    color: red;
+}
+.footer2{
+    color: white;
+    padding-top: 4px;
+}
+.footer2 ul{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer2 ul h2{
+    font-size: 20px;
+}
+.footer2 ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.footer2 ul li a:hover{
+    color:red
+}
+
+#footer{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 0;
+
+}
+#footer p{
+    padding-top: 5px;
+
+}

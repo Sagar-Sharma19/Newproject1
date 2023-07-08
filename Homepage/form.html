@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Little Star Secondary English School</h1>
+    <div class="container">
+        <h2>Admission Form</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="class">Admission For Class:</label>
+            <select id="class" name="class" required>
+              <option value="">Select a class</option>
+              <option value="class1">Class 1</option>
+              <option value="class2">Class 2</option>
+              <option value="class3">Class 3</option>
+              <option value="class1">Class 4</option>
+              <option value="class2">Class 5</option>
+              <option value="class3">Class 6</option>
+              <option value="class1">Class 7</option>
+              <option value="class2">Class 8</option>
+              <option value="class3">Class 9</option>
+              <option value="class1">Class 10</option>
+              <option value="class2">Class 11</option>
+              <option value="class3">Class 12</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">other</label>
+          </div>
+          
+          <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="image">Profile Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+          </div>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+</body>
+</html>
